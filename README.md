@@ -29,6 +29,7 @@ All methods takes a callback as their last parameter. The callback is
 called with an error code (if any) and then the response.
 
 * `paymill.payments` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#document-creditcard)
+    * `.create(payment)`
     * `.details(payment_id)` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#credit-card-details)
     * `.list(data)` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#list-credit-cards)
     * `.remove(payment_id)` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#remove-credit-card)
