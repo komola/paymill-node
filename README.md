@@ -1,6 +1,6 @@
 # Paymill-Node
 
-This is a Node.JS wrapper for Paymills API.
+This is a Node.JS wrapper for [Paymills](http://paymill.com/) [API/v2](https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html).
 
 ## Installation
 
@@ -8,19 +8,10 @@ This is a Node.JS wrapper for Paymills API.
 
 ## Usage overview
 
-    var api_key = 'abc';  // secret stripe API key
-    var stripe = require('stripe')(api_key);
+    var api_key = 'abc';  // secret paymill API key
+    var paymill = require('paymill-node')(api_key);
 
-    stripe.customers.create(
-       { email: 'foobar@example.org' },
-       function(err, customer) {
-          if (err) {
-             console.log("Couldn't create the customer record");
-             return;
-          }
-          console.log("customer id", customer.id);
-       }
-     );
+    paymill.()
 
 ## TODO
 
@@ -28,13 +19,16 @@ See the [issue tracker](http://github.com/komola/paymill-node).
 
 ## Author
 
-Sebastian Hoitz (hoitz@komola.de), Thomas Schaaf (schaaf@komola.de). Development was sponsored by [komola](http://www.komola.de/).
+Sebastian Hoitz (hoitz@komola.de), Thomas Schaaf (schaaf@komola.de). 
+Development was sponsored by [komola](http://www.komola.de/).
 
 ## Used by
 
 - [Prismabox](http://prismabox.de/)
 
 ## License
+
+(The MIT License)
 
 Copyright (C) 2012 Sebastian Hoitz, Thomas Schaaf
 
