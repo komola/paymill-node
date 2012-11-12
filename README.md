@@ -8,19 +8,21 @@ This is a Node.JS wrapper for [Paymills](http://paymill.com/) [API/v2](https://w
 
 ## Usage overview
 
-    var api_key = 'abc';  // secret paymill API key
-    var paymill = require('paymill-node')(api_key);
+```javascript
+var api_key = 'abc';  // secret paymill API key
+var paymill = require('paymill-node')(api_key);
 
-    paymill.clients.create(
-        {email: 'schaaf@komola.de'},
-        function(err, client) {
-            if (err) {
-                console.log("Couldn't create the customer record");
-                return;
-            }
-            console.log("client id " + client.data.id);
+paymill.clients.create(
+    {email: 'schaaf@komola.de'},
+    function(err, client) {
+        if (err) {
+            console.log("Couldn't create the customer record");
+            return;
         }
-    );
+        console.log("client id " + client.data.id);
+    }
+);
+```
 
 ## API
 
