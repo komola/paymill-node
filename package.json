@@ -1,0 +1,18 @@
+
+{
+  "author": "Sebastian Hoitz <hoitz@komola.de> (http://www.komola.de/), Thomas Schaaf <schaaf@komola.de> (http://www.komola.de/)",
+  "name": "paymill-node",
+  "description": "Node API wrapper",
+  "version": "0.1.0",
+  "homepage": "https://github.com/komola/paymill-node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/komola/paymill-node.git"
+  },
+  "engines": {
+    "node": ">= v0.6.0"
+  },
+  "main": "lib/main.js",
+  "dependencies": {},
+  "devDependencies": {}
+}
