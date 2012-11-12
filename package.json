@@ -1,0 +1,36 @@
+
+{
+  "author": "Sebastian Hoitz <hoitz@komola.de> (http://www.komola.de/), Thomas Schaaf <schaaf@komola.de> (http://www.komola.de/)",
+  "name": "paymill-node",
+  "maintainers":[
+        {
+            "name":"Sebastian Hoitz",
+            "email":"hoitz@komola.de"
+        },
+        {
+            "name":"Thomas Schaaf",
+            "email":"schaaf@komola.de"
+        }
+    ],
+  "description": "Paymill API wrapper",
+  "version": "0.1.0",
+  "homepage": "https://github.com/komola/paymill-node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/komola/paymill-node.git"
+  },
+  "engines": {
+    "node": ">= v0.6.0"
+  },
+  "directories" : { "lib" : "./lib" },
+  "main": "lib/main",
+  "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/komola/paymill-node/blob/master/LICENSE"
+        }
+    ],
+  "keywords": ["paymill", "payment", "creditcard", "elv"],
+  "dependencies": {},
+  "devDependencies": {}
+}
