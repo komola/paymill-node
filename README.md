@@ -12,13 +12,12 @@ This is a Node.JS wrapper for [Paymills](http://paymill.com/) [API/v2](https://w
     var paymill = require('paymill-node')(api_key);
 
     paymill.clients.create(
-        { 
-            email: 'schaaf@komola.de' },
-            function(err, client) {
-                if (err) {
-                    console.log("Couldn't create the customer record");
-                    return;
-                }
+        {email: 'schaaf@komola.de'},
+        function(err, client) {
+            if (err) {
+                console.log("Couldn't create the customer record");
+                return;
+            }
             console.log("client id " + client.data.id);
         }
     );
@@ -71,7 +70,7 @@ See the [issue tracker](http://github.com/komola/paymill-node).
 
 ## Author
 
-Sebastian Hoitz (hoitz@komola.de), Thomas Schaaf (schaaf@komola.de). 
+Sebastian Hoitz (hoitz@komola.de), Thomas Schaaf (schaaf@komola.de).
 Development was sponsored by [komola](http://www.komola.de/).
 
 ## Used by
@@ -104,5 +103,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 ## Thanks
-Big thanks go to Ask Bjørn Hansens (ask@develooper.com) who created [node-paymill](https://github.com/abh/node-paymill) and greatly shaped the documents.
+Big thanks go to Ask Bjørn Hansens (ask@develooper.com) who created [node-stripe](https://github.com/abh/node-stripe) and greatly inspired the structure.
 We also thank [Paymill](http://paymill.com) for making payment awesome for europeans.
