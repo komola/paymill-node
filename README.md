@@ -64,7 +64,12 @@ called with an error code (if any) and then the response.
     * `.update(subscription_id, data)`
     * `.remove(subscription_id)`
     * `.list(data)`
-
+* `paymill.webhooks` - (https://www.paymill.com/en-gb/dokumentation/referenz/api-referenz/index.html#document-subscriptions)
+    * `.create(webhook)`
+    * `.details(webhook_id)`
+    * `.update(webhook_id, data)`
+    * `.remove(webhook_id)`
+    * `.list(data)`
 
 ## TODO
 
