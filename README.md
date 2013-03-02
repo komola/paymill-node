@@ -29,42 +29,42 @@ paymill.clients.create(
 All methods takes a callback as their last parameter. The callback is
 called with an error code (if any) and then the response.
 
-* `paymill.payments` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#document-creditcard)
+* `paymill.payments` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-payments)
     * `.create(payment)`
-    * `.details(payment_id)` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#credit-card-details)
-    * `.list(data)` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#list-credit-cards)
-    * `.remove(payment_id)` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#remove-credit-card)
-* `paymill.preauthorizations` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#document-preauthorizations)
+    * `.details(payment_id)`
+    * `.list(data)`
+    * `.remove(payment_id)`
+* `paymill.preauthorizations` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-preauthorizations)
     * `.create(preauthorization)`
     * `.details(preauthorization_id)`
     * `.list(data)`
-* `paymill.transactions` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#document-transactions)
+* `paymill.transactions` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-transactions)
     * `.create(transaction)`
     * `.details(transaction_id)`
     * `.list(data)`
-* `paymill.refunds` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#document-refunds)
+* `paymill.refunds` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-refunds)
     * `.refund(tranaction_id, amount, description)`
     * `.details(refund_id)`
     * `.list(data)`
-* `paymill.clients` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html#document-clients)
+* `paymill.clients` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-clients)
     * `.create(client)`
     * `.details(client_id)`
     * `.update(client_id, data)`
     * `.remove(client_id)`
     * `.list(data)`
-* `paymill.offers` - (https://www.paymill.com/en-gb/dokumentation/referenz/api-referenz/index.html#document-offers)
+* `paymill.offers` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-offers)
     * `.create(offer)`
     * `.details(offer_id)`
     * `.update(offer_id, data)`
     * `.remove(offer_id)`
     * `.list(data)`
-* `paymill.subscriptions` - (https://www.paymill.com/en-gb/dokumentation/referenz/api-referenz/index.html#document-subscriptions)
+* `paymill.subscriptions` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-subscriptions)
     * `.create(subscription)`
     * `.details(subscription_id)`
     * `.update(subscription_id, data)`
     * `.remove(subscription_id)`
     * `.list(data)`
-* `paymill.webhooks` - (https://www.paymill.com/en-gb/dokumentation/referenz/api-referenz/index.html#document-subscriptions)
+* `paymill.webhooks` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-webhooks)
     * `.create(webhook)`
     * `.details(webhook_id)`
     * `.update(webhook_id, data)`
