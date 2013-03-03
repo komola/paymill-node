@@ -71,6 +71,10 @@ called with an error code (if any) and then the response.
     * `.remove(webhook_id)`
     * `.list(data)`
 
+## Examples
+
+I created an account paymill-node@mailinator.com for testing purposes. The password ist paymill-node. The API keys in this document are from it. I also created a postbin for testing purposes at: http://requestb.in/1dgn50m1?inspect
+
 ## TODO
 
 See the [issue tracker](http://github.com/komola/paymill-node).
