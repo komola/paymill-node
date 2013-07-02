@@ -77,7 +77,7 @@ I created an account paymill-node@mailinator.com for testing purposes. The passw
 
 ## TODO
 
-See the [issue tracker](http://github.com/komola/paymill-node).
+See the [issue tracker](http://github.com/komola/paymill-node/issues).
 
 ## Author
 
