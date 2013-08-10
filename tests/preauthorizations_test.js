@@ -155,7 +155,7 @@ QUnit.module('list preauthorizations');
 
 QUnit.module('remove preauthorization');
 
-	test('It should throw a TypeError if the payment_id is not a string', function(){
+	test('It should throw a TypeError if the preauthorization_id is not a string', function(){
 		// prepare env
 		var preauthorization_id = {};
 		var cb = function(){};
