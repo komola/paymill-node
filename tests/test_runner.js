@@ -29,5 +29,5 @@ var callback = function (err, report) {
 // one code and tests file
 testrunner.run({
     code : '../lib/main.js',
-    tests : 'payments_test.js'
+    tests : ['payments_test.js', 'preauthorizations_test.js', 'transactions_test.js']
 }, callback);
