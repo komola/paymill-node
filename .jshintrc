@@ -1,0 +1,20 @@
+{
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "nonew": true,
+  "undef": true,
+  "unused": false,
+  "strict": true,
+  "trailing": true,
+  "eqnull": true,
+  "globalstrict": true,
+  "smarttabs": true,
+  "node": true,
+  "quotmark": "single"
+}
