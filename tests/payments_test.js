@@ -1,9 +1,9 @@
 var api_key = '66748d6d3d0d36c819560088b9f817d7';  // secret paymill
 var paymill = require('../lib/main')(api_key);
 var nock = require('nock');
-var paymillHost = 'https://api.paymill.de'; 
+var paymillHost = 'https://api.paymill.de';
 
-	QUnit.module('create');
+QUnit.module('create payment');
 
 	test('It should call the callback with an Error object if the response status is not 200', function(){
 		// prepare env
@@ -41,7 +41,7 @@ var paymillHost = 'https://api.paymill.de';
 		stop();
 	});
 
-QUnit.module('details function');
+QUnit.module('payment details');
 
 	test('It should throw a TypeError if the payment_id is not a string', function(){
 		// prepare env
@@ -115,7 +115,7 @@ QUnit.module('details function');
 		stop();
 	});
 
-QUnit.module('list');
+QUnit.module('list payments');
 
 	test('It should call the callback with an Error object if the response status is not 200', function(){
 		// prepare env
@@ -153,7 +153,7 @@ QUnit.module('list');
 		stop();
 	});
 
-QUnit.module('remove');
+QUnit.module('remove payment');
 
 	test('It should throw a TypeError if the payment_id is not a string', function(){
 		// prepare env
