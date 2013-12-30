@@ -41,6 +41,7 @@ called with an error code (if any) and then the response.
 * `paymill.transactions` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-transactions)
     * `.create(transaction)`
     * `.details(transaction_id)`
+    * `.update(transaction_id, data)`
     * `.list(data)`
 * `paymill.refunds` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-refunds)
     * `.refund(tranaction_id, amount, description)`
