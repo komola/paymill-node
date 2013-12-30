@@ -12,7 +12,7 @@
     }
   ],
   "description": "Paymill API wrapper",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "https://github.com/komola/paymill-node",
   "repository": {
     "type": "git",
