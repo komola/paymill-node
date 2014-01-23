@@ -31,5 +31,8 @@
   ],
   "keywords": ["paymill", "payment", "creditcard", "elv"],
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+	"qunit": "*",
+	"nock": "*"
+  }
 }
