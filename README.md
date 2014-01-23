@@ -82,6 +82,17 @@ See the [issue tracker](http://github.com/komola/paymill-node/issues).
 
 ## Author
 
+Authors, sorted by number of commits:
+```
+$ git shortlog -s | sort -rn
+    18	Thomas Schaaf
+    15	Nikolas Poniros
+    11	Sebastian Hoitz
+     2	Jörg Tillmann
+     1	Quentin Adam
+     1	Emilian Stoilkov
+```
+
 Sebastian Hoitz (hoitz@komola.de), Thomas Schaaf (schaaf@komola.de).
 Development was sponsored by [komola](http://www.komola.de/).
 
