@@ -37,6 +37,7 @@ testrunner.run({
     'tests/offers_test.js',
     'tests/subscriptions_test.js',
     'tests/webhooks_test.js',
-    'tests/refunds_test.js'
+    'tests/refunds_test.js',
+    'tests/error_test.js'
   ]
 }, callback);
