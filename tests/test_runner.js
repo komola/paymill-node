@@ -28,6 +28,15 @@ var callback = function (err, report) {
 
 // one code and tests file
 testrunner.run({
-  code : '../lib/main.js',
-  tests : ['payments_test.js', 'preauthorizations_test.js', 'transactions_test.js', 'clients_test.js', 'offers_test.js', 'subscriptions_test.js', 'webhooks_test.js', 'refunds_test.js']
+  code : 'lib/main.js',
+  tests : [
+    'tests/payments_test.js',
+    'tests/preauthorizations_test.js',
+    'tests/transactions_test.js',
+    'tests/clients_test.js',
+    'tests/offers_test.js',
+    'tests/subscriptions_test.js',
+    'tests/webhooks_test.js',
+    'tests/refunds_test.js'
+  ]
 }, callback);

@@ -32,7 +32,10 @@
   "keywords": ["paymill", "payment", "creditcard", "elv"],
   "dependencies": {},
   "devDependencies": {
-	"qunit": "*",
-	"nock": "*"
+      "qunit": "*",
+      "nock": "*"
+  },
+  "scripts": {
+      "test": "node tests/test_runner.js"
   }
 }
