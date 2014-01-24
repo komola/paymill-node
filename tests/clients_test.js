@@ -5,9 +5,6 @@ var paymillHost = 'https://api.paymill.de';
 
 QUnit.module('create client');
 
-  test('failing test', function(){
-    ok(false);
-  });
   test('It should call the callback with an Error object if the response status is not 200', function(){
     // prepare env
     var client = {};
