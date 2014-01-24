@@ -18,11 +18,14 @@ testrunner.options.log = {
 };
 
 var callback = function (err, report) {
-  util.log('Test done!');
   if (err) {
     util.log(util.inspect(err));
   } else {
     util.log(util.inspect(report));
+
+    if (report.failed > 0) {
+      process.exit(1);
+    }
   }
 };
 
