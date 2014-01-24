@@ -1,4 +1,6 @@
-# Paymill-Node [![Build Status](https://travis-ci.org/komola/paymill-node.png?branch=master)](https://travis-ci.org/komola/paymill-node)
+# Paymill-Node [![Build Status](https://travis-ci.org/komola/paymill-node.png?branch=master)](https://travis-ci.org/komola/paymill-node) ![Dependencies](https://david-dm.org/komola/paymill-node.png) ![Dev dependencies](https://david-dm.org/komola/paymill-node/dev-status.png)
+
+[![NPM](https://nodei.co/npm/paymill-node.png?downloads=true)](https://nodei.co/npm/paymill-node/)
 
 This is a Node.JS wrapper for [Paymills](http://paymill.com/) [API/v2](https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html).
 
