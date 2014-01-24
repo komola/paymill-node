@@ -1,4 +1,4 @@
-# Paymill-Node
+# Paymill-Node [![Build Status](https://travis-ci.org/komola/paymill-node.png?branch=master)](https://travis-ci.org/komola/paymill-node)
 
 This is a Node.JS wrapper for [Paymills](http://paymill.com/) [API/v2](https://www.paymill.com/en-gb/documentation-3/reference/api-reference/index.html).
 
