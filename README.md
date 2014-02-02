@@ -39,6 +39,7 @@ called with an error code (if any) and then the response.
 * `paymill.preauthorizations` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-preauthorizations)
     * `.create(preauthorization)`
     * `.details(preauthorization_id)`
+    * `.remove(preauthorization_id)`
     * `.list(data)`
 * `paymill.transactions` - (https://www.paymill.com/en-gb/documentation-3/reference/api-reference/#document-transactions)
     * `.create(transaction)`
